@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "644495357398",
+    "project_id": "myrecipesapp-d0c72",
+    "storage_bucket": "myrecipesapp-d0c72.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644495357398:android:473ab2e0f87a83c66b2077",
+        "android_client_info": {
+          "package_name": "com.example.myrecipes3app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2EpBuw7qj3CJ6de2JYtO2eOOcvOhfWV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

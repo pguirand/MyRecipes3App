@@ -5,6 +5,8 @@ plugins {
 
     alias(libs.plugins.kotlin.kapt) // Kotlin KAPT
     alias(libs.plugins.hilt.android) // HILT Plugin
+
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -120,5 +122,19 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    // Import the Firebase BoM
+    implementation(platform("com.google.firebase:firebase-bom:33.12.0"))
+
+//    // Crashlytics
+//    implementation("com.google.firebase:firebase-crashlytics")
+//
+//    // Firebase Analytics (optional but recommended)
+//    implementation("com.google.firebase:firebase-analytics")
+
+    // Firebase Cloud Messaging
+    implementation("com.google.firebase:firebase-messaging")
+
+
 
 }
